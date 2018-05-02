@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/menuTutorial"
+        android:title="Goals"
+        android:icon="@drawable/ic_perm_device_information_white_24dp"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/menuGoals"
+        android:title="Goals"
+        android:icon="@drawable/ic_trophy_white_24dp"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/menuCheck"
+        android:title="Check"
+        android:icon="@drawable/ic_check_white_24dp"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/menuCross"
+        android:title="Cross"
+        android:icon="@drawable/ic_close_white_24dp"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/menuReloading"
+        android:title="Reloading"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_sync_white_24dp" />
+
+    <item android:id="@+id/menuReload"
+        android:title="Reload"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_refresh_white_24dp" />
+
+    <item android:id="@+id/menuSettings"
+        android:title="Settings"
+        android:icon="@drawable/ic_settings_white_24dp"
+        app:showAsAction="ifRoom"/>
+
+</menu>
